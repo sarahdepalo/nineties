@@ -1,0 +1,149 @@
+/* General Styles */
+
+html {
+    /* image from https://i.pinimg.com/originals/07/52/cd/0752cd6d7fc1e6b94384d171ea00231b.gif */
+    background-image: url("nineties-pattern.gif");
+    background-repeat: repeat;
+    
+}
+
+main {
+    background-color: rgba(235, 234, 236, 0.71);
+    font-family: 'KoHo', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    color: #5B0B93;
+    text-shadow: 1px 1px 4px #FA5CFF;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: -10px;
+    color: #001A9C;
+    text-shadow: 1px 1px 4px #39C2DB;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 18px;
+    margin-top:30px;
+}
+
+/* Header */
+
+.header-banner {
+    background-color: #ebeaec;
+    margin: -40px -10px 20px -10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: #E500F3;
+    text-shadow: 1px 1px 4px #F7B9FA;
+    font-size: 40px;
+    border: 10px solid #3AC2DD;
+}
+
+header nav li {
+    display: inline;
+    list-style-type: none;
+    color: #001A9C;
+    text-shadow: 1px 1px 4px #39C2DB;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+/* Link Styles */
+
+a:link {
+    color: #001A9C;
+    text-shadow: 1px 1px 4px #39C2DB;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #001A9C;
+}
+
+a:hover {
+    color: #FFDD44;
+}
+
+/* BUTTON */
+
+#read-more {
+    background-color: #39C2DB;
+    border: 3px solid #F7B9FA;
+    color: white;
+
+    padding: 15px 32px;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-box {
+    margin-top:50px;
+}
+
+
+/* Grid Styles */
+.grid {
+    display: -webkit-flex;
+    display:flex;
+    column-gap: 10px;
+  
+  }
+.col {
+    padding: 30px;
+  }
+  
+.fixed {
+    width:400px;
+  }
+  
+.fluid {
+    flex: 1;
+  }
+
+.myspace-col {
+    /* background-color: #ebeaec; */
+    border-left: 10px solid #3AC2DD;
+    border-right:10px solid #3AC2DD;
+    border-bottom: 10px solid #3AC2DD;
+    margin-top: -20px;
+    margin-left: -10px;
+    font-size: 18px;
+
+}
+
+.story-col {
+    border-left: 10px solid #3AC2DD;
+    border-right:10px solid #3AC2DD;
+    border-bottom: 10px solid #3AC2DD;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+  
+.story-img {
+    box-shadow: 12px 12px 2px 1px #DF8ECB;
+}
+
+.grim {
+    border-top: 10px solid #DF8ECB;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+marquee span {
+    padding: 0px 10px 0px 10px;
+
+}
+
+
